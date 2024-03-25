@@ -1,6 +1,4 @@
 # Random-Experiment
-[Notebook Of Experiment](https://www.kaggle.com/code/newtonbaba12345/random-experiment-data)
-[Dataset](https://www.kaggle.com/datasets/newtonbaba12345/random-exp-data)
 
 This weekend I had nothing much to do and did not knew what to do. So I decided to do some random experiment with weights of simple neural network. I bacsicly trained two NN to classify 3 classes : 0,1 and 2. First model was trained on data containing 0 and 1 class only with just one class of 2.Second model was trained on data containing 0 and 2 class only with just one class of 1. Then I tried to combine the weights to improve the performance of the model .
 
