@@ -13,21 +13,21 @@ This weekend I had nothing much to do and did not knew what to do. So I decided 
 
 Results :
 -  **w = alpha*w_(0and1) + (1-\alpha)*w_(0and2)** :
--  
-![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F13602048%2F0b1492a217562c83dd405d7a0fc50ae0%2Foutput.png?generation=1711308726207012&alt=media)
 
-Clearly combining model in such a way was not a good idea as the accuracy droped significantly.
+    ![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F13602048%2F0b1492a217562c83dd405d7a0fc50ae0%2Foutput.png?generation=1711308726207012&alt=media)
+
+    Clearly combining model in such a way was not a good idea as the accuracy droped significantly.
 
 - **w = alpha*(w_(0and1))^2 + (1-\alpha)*(w_(0and2))^2** :
-- 
-![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F13602048%2Fe256c6c4e7c74d070e39fc90a075b037%2Foutput.png?generation=1711308937079103&alt=media)
 
-Again I got terrible results 🥲.
+    ![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F13602048%2Fe256c6c4e7c74d070e39fc90a075b037%2Foutput.png?generation=1711308937079103&alt=media)
+
+    Again I got terrible results 🥲.
 
 - **w =( (w_0and1)^n+(w_0and2)^n)/2** :
-- 
-![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F13602048%2F8652084c3f6a2e368e636169f2135b41%2Foutput.png?generation=1711308993594322&alt=media)
 
-![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F13602048%2F0726ca5712219c9a2feccf7be68f4f0c%2Foutput.png?generation=1711309023071418&alt=media)
+    ![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F13602048%2F8652084c3f6a2e368e636169f2135b41%2Foutput.png?generation=1711308993594322&alt=media)
 
-Now I got something intresting . These spikes are very much intresting and till now I have not find any reason to explain this . The pattern is that there is a spike in accuracy at **even values of n** and have **higher accuracies** as compared to nearby **odd values of n**.
+    ![](https://www.googleapis.com/download/storage/v1/b/kaggle-forum-message-attachments/o/inbox%2F13602048%2F0726ca5712219c9a2feccf7be68f4f0c%2Foutput.png?generation=1711309023071418&alt=media)
+
+    Now I got something intresting . These spikes are very much intresting and till now I have not find any reason to explain this . The pattern is that there is a spike in accuracy at **even values of n** and have **higher accuracies** as compared to nearby **odd values of n**.
